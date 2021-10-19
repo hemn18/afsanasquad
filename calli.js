@@ -37,7 +37,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "s!";
+const prefix = "&";
 const cooldown = new Set();
 const cdtime = 5;
 ///////////////////////////////////////////////////////////////////////////////
@@ -54,19 +54,19 @@ calli.on("message", message => {
     }, cdtime * 1000);
     let embed = new Discord.MessageEmbed()
       .setColor(callicolor)
-      .setImage(`https://media.discordapp.net/attachments/829751738717306920/835146132023279616/image0.png`)
+      .setImage(`https://media.discordapp.net/attachments/888547438904872981/899953509968011274/PicsArt_10-01-01.39.14.png`)
       .setDescription(`
 👑 OwnerCode 
-(Calli#0001,AMxSakran^#3799)
+(Calli#9792,HEMN#9792)
 🤖 Securitybots 
-(Anti Vandalism#6064)
+(Anti HEMN#9792)
       `)
-      .setThumbnail(`https://media.discordapp.net/attachments/829751738717306920/835145114519208017/image0.gif`)
+      .setThumbnail(`https://media.discordapp.net/attachments/888547438904872981/899953509968011274/PicsArt_10-01-01.39.14.png`)
     message.channel.send({ embed });
   }
 });
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("")
+calli.login("ODkxMDY5Nzk3NzkyNjEyNDI2.YU4_aw.acm_QWRAg-HnsNWHgTPs2-yOsU8")
 ///////////////////////////////////////////////////////////////////////////////
 const callienabled  = "";
 const callidisabled = "";
